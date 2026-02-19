@@ -129,12 +129,6 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-<!-- BOARD 4: TROPHIES -->
-### `> trophies --all`
-
-<div align="center">
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=Quantum5hadow&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
