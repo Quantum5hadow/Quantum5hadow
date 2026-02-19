@@ -1,137 +1,167 @@
-<!-- HEADER -->
+<!-- HEADER - NEWSPAPER MASTHEAD -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00FF41&height=200&section=header&text=QUANTUM5HADOW&fontSize=60&fontColor=00FF41&fontAlignY=38&desc=I%20think%20like%20an%20attacker.%20I%20build%20like%20a%20developer.&descSize=16&descAlignY=60&descColor=ffffff&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:f5f0e8,100:e8e0cc&height=180&text=THE%20QUANTUM%20GAZETTE&fontSize=48&fontColor=1a1a1a&fontAlignY=45&desc=Est.%202021%20%7C%20Vol.%204%20%7C%20Daily%20Edition%20%7C%20%22Discipline%20%3E%20Motivation%22&descSize=13&descAlignY=72&descColor=333333" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&width=700&lines=Security+Engineer+in+the+making...;Building+what+others+only+talk+about.;Discipline+%3E+Motivation.+Always.;The+shadow+that+codes.;Python+%7C+Kotlin+%7C+OpenCV+%7C+Kali;Ultra+noob.+Dangerously+curious." alt="Typing SVG" />
+</div>
 
-[![Visits](https://komarev.com/ghpvc/?username=Quantum5hadow&style=for-the-badge&color=00FF41&labelColor=0d0d0d&label=VISITORS)](https://github.com/Quantum5hadow)
-[![GitHub followers](https://img.shields.io/github/followers/Quantum5hadow?style=for-the-badge&color=00FF41&labelColor=0d0d0d&logo=github)](https://github.com/Quantum5hadow?tab=followers)
+<div align="center">
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        ALL THE CODE THAT'S FIT TO SHIP  ◆  KALI TO KOTLIN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+[![Visits](https://komarev.com/ghpvc/?username=Quantum5hadow&style=flat-square&color=555555&labelColor=e8e0cc&label=READERS+TODAY)](https://github.com/Quantum5hadow)
+[![GitHub followers](https://img.shields.io/github/followers/Quantum5hadow?style=flat-square&color=555555&labelColor=e8e0cc&logo=github&label=SUBSCRIBERS)](https://github.com/Quantum5hadow?tab=followers)
 
 </div>
 
 ---
 
-<!-- ABOUT -->
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=Quantum5hadow&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff&count_private=true" />
-
-### `> whoami`
-
-```bash
-Alias    : Quantum5hadow
-Role     : CS undergrad → Security + AI builder
-Mindset  : attacker brain, developer hands
-Status   : focused. quietly dangerous.
+<!-- FRONT PAGE -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                        FRONT PAGE                               │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-i don't chase trends. i pick something that confuses me and stay with it until it doesn't.
+<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=Quantum5hadow&show_icons=true&hide_border=false&bg_color=f5f0e8&title_color=1a1a1a&icon_color=333333&text_color=1a1a1a&border_color=1a1a1a&ring_color=1a1a1a" />
 
-called myself an ultra noob once. still do. keeps me hungry.
+### ◆ WHO IS QUANTUM5HADOW?
 
-`Tech` is my weapon. `Discipline` is my armor.
+*By Staff Reporter · Security Desk*
+
+Sources confirm the individual known as **Quantum5hadow** operates at the intersection of two worlds most developers pick only one from — building systems and breaking them.
+
+Described by colleagues as *"focused, quietly dangerous"*, the suspect holds a B.Tech in Computer Science and has been observed writing Python at unusual hours.
+
+**"I called myself an ultra noob once,"** the subject was quoted as saying. **"Still do. Keeps me hungry."**
+
+*Investigations ongoing.*
 
 <br clear="right"/>
 
 ---
 
-<!-- TECH STACK -->
-### `> cat arsenal.txt`
+<!-- BREAKING NEWS -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    ◆ BREAKING NEWS ◆                            │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-**languages**
-
-![Python](https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=00FF41)
-![Kotlin](https://img.shields.io/badge/Kotlin-0d0d0d?style=for-the-badge&logo=kotlin&logoColor=00FF41)
-![Java](https://img.shields.io/badge/Java-0d0d0d?style=for-the-badge&logo=openjdk&logoColor=00FF41)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d0d0d?style=for-the-badge&logo=javascript&logoColor=00FF41)
-![Swift](https://img.shields.io/badge/Swift-0d0d0d?style=for-the-badge&logo=swift&logoColor=00FF41)
-![Rust](https://img.shields.io/badge/Rust-0d0d0d?style=for-the-badge&logo=rust&logoColor=00FF41)
-![Dart](https://img.shields.io/badge/Dart-0d0d0d?style=for-the-badge&logo=dart&logoColor=00FF41)
-![Bash](https://img.shields.io/badge/Bash-0d0d0d?style=for-the-badge&logo=gnubash&logoColor=00FF41)
-
-**vision + AI**
-
-![OpenCV](https://img.shields.io/badge/OpenCV-0d0d0d?style=for-the-badge&logo=opencv&logoColor=00FF41)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0d0d0d?style=for-the-badge&logo=google&logoColor=00FF41)
-![NumPy](https://img.shields.io/badge/NumPy-0d0d0d?style=for-the-badge&logo=numpy&logoColor=00FF41)
-![Flutter](https://img.shields.io/badge/Flutter-0d0d0d?style=for-the-badge&logo=flutter&logoColor=00FF41)
-
-**security**
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-0d0d0d?style=for-the-badge&logo=kalilinux&logoColor=00FF41)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d0d0d?style=for-the-badge&logo=burpsuite&logoColor=00FF41)
-![Metasploit](https://img.shields.io/badge/Metasploit-0d0d0d?style=for-the-badge&logo=metasploit&logoColor=00FF41)
-![Nessus](https://img.shields.io/badge/Nessus-0d0d0d?style=for-the-badge&logo=tenable&logoColor=00FF41)
-![Termux](https://img.shields.io/badge/Termux-0d0d0d?style=for-the-badge&logo=gnometerminal&logoColor=00FF41)
-![Linux](https://img.shields.io/badge/Linux-0d0d0d?style=for-the-badge&logo=linux&logoColor=00FF41)
-
-**cloud + data + devops**
-
-![AWS](https://img.shields.io/badge/AWS-0d0d0d?style=for-the-badge&logo=amazonaws&logoColor=00FF41)
-![Firebase](https://img.shields.io/badge/Firebase-0d0d0d?style=for-the-badge&logo=firebase&logoColor=00FF41)
-![Docker](https://img.shields.io/badge/Docker-0d0d0d?style=for-the-badge&logo=docker&logoColor=00FF41)
-![Git](https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=00FF41)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-0d0d0d?style=for-the-badge&logo=amazondynamodb&logoColor=00FF41)
-![Redis](https://img.shields.io/badge/Redis-0d0d0d?style=for-the-badge&logo=redis&logoColor=00FF41)
-![Neo4j](https://img.shields.io/badge/Neo4j-0d0d0d?style=for-the-badge&logo=neo4j&logoColor=00FF41)
-![MongoDB](https://img.shields.io/badge/MongoDB-0d0d0d?style=for-the-badge&logo=mongodb&logoColor=00FF41)
+| HEADLINE | DETAILS | STATUS |
+|---|---|---|
+| 🕵️ **SOCIAL ENGINEERING DETECTOR** | NLP system exposing manipulation tactics in real time. urgency. fear. authority. scarcity. | `IN DEV` |
+| 🖐️ **VR HAND TRACKING INCIDENT** | Witness builds virtual keyboard using only webcam. No hardware. OpenCV + MediaPipe. Authorities baffled. | `SHIPPED` |
+| 🔐 **SECURITY SCANNER DEPLOYED** | Automated SQLi + XSS detection tool. Built by someone who understands the attack, not just the tool. | `SHIPPED` |
+| ☁️ **ENCRYPTED STORAGE PLATFORM** | AES encryption + MFA. Sources say privacy is not optional. | `SHIPPED` |
 
 ---
 
-<!-- BOARD 1: STATS + STREAK SIDE BY SIDE -->
-### `> stats --github`
+<!-- CLASSIFIEDS - TECH STACK -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                       CLASSIFIEDS                               │
+│                  TECHNOLOGIES FOR HIRE                          │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**LANGUAGES**
+
+![Python](https://img.shields.io/badge/Python-e8e0cc?style=flat-square&logo=python&logoColor=1a1a1a)
+![Kotlin](https://img.shields.io/badge/Kotlin-e8e0cc?style=flat-square&logo=kotlin&logoColor=1a1a1a)
+![Java](https://img.shields.io/badge/Java-e8e0cc?style=flat-square&logo=openjdk&logoColor=1a1a1a)
+![JavaScript](https://img.shields.io/badge/JavaScript-e8e0cc?style=flat-square&logo=javascript&logoColor=1a1a1a)
+![Swift](https://img.shields.io/badge/Swift-e8e0cc?style=flat-square&logo=swift&logoColor=1a1a1a)
+![Rust](https://img.shields.io/badge/Rust-e8e0cc?style=flat-square&logo=rust&logoColor=1a1a1a)
+![Dart](https://img.shields.io/badge/Dart-e8e0cc?style=flat-square&logo=dart&logoColor=1a1a1a)
+![Bash](https://img.shields.io/badge/Bash-e8e0cc?style=flat-square&logo=gnubash&logoColor=1a1a1a)
+
+**VISION + AI**
+
+![OpenCV](https://img.shields.io/badge/OpenCV-e8e0cc?style=flat-square&logo=opencv&logoColor=1a1a1a)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-e8e0cc?style=flat-square&logo=google&logoColor=1a1a1a)
+![NumPy](https://img.shields.io/badge/NumPy-e8e0cc?style=flat-square&logo=numpy&logoColor=1a1a1a)
+![Flutter](https://img.shields.io/badge/Flutter-e8e0cc?style=flat-square&logo=flutter&logoColor=1a1a1a)
+
+**SECURITY**
+
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-e8e0cc?style=flat-square&logo=kalilinux&logoColor=1a1a1a)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-e8e0cc?style=flat-square&logo=burpsuite&logoColor=1a1a1a)
+![Metasploit](https://img.shields.io/badge/Metasploit-e8e0cc?style=flat-square&logo=metasploit&logoColor=1a1a1a)
+![Nessus](https://img.shields.io/badge/Nessus-e8e0cc?style=flat-square&logo=tenable&logoColor=1a1a1a)
+![Termux](https://img.shields.io/badge/Termux-e8e0cc?style=flat-square&logo=gnometerminal&logoColor=1a1a1a)
+![Linux](https://img.shields.io/badge/Linux-e8e0cc?style=flat-square&logo=linux&logoColor=1a1a1a)
+
+**CLOUD + DATA + DEVOPS**
+
+![AWS](https://img.shields.io/badge/AWS-e8e0cc?style=flat-square&logo=amazonaws&logoColor=1a1a1a)
+![Firebase](https://img.shields.io/badge/Firebase-e8e0cc?style=flat-square&logo=firebase&logoColor=1a1a1a)
+![Docker](https://img.shields.io/badge/Docker-e8e0cc?style=flat-square&logo=docker&logoColor=1a1a1a)
+![Git](https://img.shields.io/badge/Git-e8e0cc?style=flat-square&logo=git&logoColor=1a1a1a)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-e8e0cc?style=flat-square&logo=amazondynamodb&logoColor=1a1a1a)
+![Redis](https://img.shields.io/badge/Redis-e8e0cc?style=flat-square&logo=redis&logoColor=1a1a1a)
+![Neo4j](https://img.shields.io/badge/Neo4j-e8e0cc?style=flat-square&logo=neo4j&logoColor=1a1a1a)
+![MongoDB](https://img.shields.io/badge/MongoDB-e8e0cc?style=flat-square&logo=mongodb&logoColor=1a1a1a)
+
+---
+
+<!-- STATISTICS COLUMN -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    STATISTICS & RECORDS                         │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Quantum5hadow&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=00FF41&text_color=ffffff&langs_count=10" />
-<img height="180" src="https://streak-stats.demolab.com?user=Quantum5hadow&theme=terminal&hide_border=true&background=0d0d0d&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=00FF41&stroke=00FF41&currStreakNum=ffffff&sideNums=ffffff" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Quantum5hadow&layout=compact&hide_border=false&bg_color=f5f0e8&title_color=1a1a1a&text_color=1a1a1a&border_color=1a1a1a&langs_count=10" />
+<img height="180" src="https://streak-stats.demolab.com?user=Quantum5hadow&hide_border=false&background=f5f0e8&ring=1a1a1a&fire=333333&currStreakLabel=1a1a1a&sideLabels=1a1a1a&dates=333333&stroke=1a1a1a&currStreakNum=1a1a1a&sideNums=1a1a1a" />
 
 </div>
 
 ---
 
-<!-- BOARD 2: ACTIVITY GRAPH -->
-### `> stats --activity`
+<!-- ACTIVITY GRAPH -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     FIELD CORRESPONDENT                         │
+│                   ACTIVITY ON THE GROUND                        │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Quantum5hadow&bg_color=0d0d0d&color=00FF41&line=00FF41&point=ffffff&area=true&hide_border=true&area_color=00FF4130)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Quantum5hadow&bg_color=f5f0e8&color=1a1a1a&line=333333&point=1a1a1a&area=true&hide_border=false&area_color=33333320)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
 
-<!-- BOARD 3: PROFILE SUMMARY CARDS -->
-### `> stats --summary`
+<!-- TROPHIES -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                  AWARDS & DECORATIONS                           │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
-[![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Quantum5hadow&theme=github_dark)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Quantum5hadow&theme=github_dark" />
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Quantum5hadow&theme=github_dark" />
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Quantum5hadow&theme=github_dark&utcOffset=5.5" />
+[![Trophy](https://github-profile-trophy.vercel.app/?username=Quantum5hadow&theme=flat&no-frame=false&no-bg=false&margin-w=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
 ---
 
-</div>
-
----
-
-<!-- BOARD 5: DEV JOKE -->
-### `> sudo apt install humor`
-
-<div align="center">
-
-[![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%230d0d0d&borderColor=%2300FF41&qColor=%2300FF41&aColor=%23ffffff&textColor=%23ffffff&codeColor=%2300FF41)](https://github.com/ABSphreak/readme-jokes)
-
-</div>
-
----
-
-<!-- LEETCODE DUAL -->
-### `> leetcode --both-accounts`
+<!-- LEETCODE -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│           CORRESPONDENT REPORTS: THE DAILY GRIND               │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
@@ -139,53 +169,53 @@ called myself an ultra noob once. still do. keeps me hungry.
 <tr>
 <td align="center" width="50%">
 
-**🆕 PixelPrince** *(active)*
+**◆ PixelPrince** *(active account)*
 
-[![LeetCode](https://leetcard.jacoblin.cool/PixelPrince?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=8)](https://leetcode.com/u/PixelPrince/)
+[![LeetCode](https://leetcard.jacoblin.cool/PixelPrince?theme=light&font=Georgia&ext=heatmap&border=1&radius=0)](https://leetcode.com/u/PixelPrince/)
 
 </td>
 <td align="center" width="50%">
 
-**👾 Quantumshadow** *(legacy)*
+**◆ Quantumshadow** *(legacy account)*
 
-[![LeetCode](https://leetcard.jacoblin.cool/Quantumshadow?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=8)](https://leetcode.com/u/Quantumshadow/)
+[![LeetCode](https://leetcard.jacoblin.cool/Quantumshadow?theme=light&font=Georgia&ext=heatmap&border=1&radius=0)](https://leetcode.com/u/Quantumshadow/)
 
 </td>
 </tr>
 </table>
 
-> two accounts. one grind. `discipline > motivation.`
+*two accounts. one grind. discipline > motivation.*
 
 </div>
 
 ---
 
-<!-- PACMAN EATING COMMITS -->
+<!-- SNAKE -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│              SNAKE SPOTTED CONSUMING COMMITS                    │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Quantum5hadow/Quantum5hadow/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Quantum5hadow/Quantum5hadow/output/github-contribution-grid-snake.svg" />
-  <img alt="pacman eating commits" src="https://raw.githubusercontent.com/Quantum5hadow/Quantum5hadow/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="snake eating commits" src="https://raw.githubusercontent.com/Quantum5hadow/Quantum5hadow/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
-> ⚠️ if this is broken: go to **Actions tab** → run **Generate Snake Animation** manually once → done forever
-
 </div>
 
 ---
 
-<!-- QUOTE -->
-<div align="center">
+<!-- EDITORIAL -->
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                      EDITOR'S NOTE                              │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The+quieter+you+become%2C+the+more+you+are+able+to+hear.&author=Kali+Linux)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
-
----
-
-<!-- FOOTER -->
 <div align="center">
 
 ```
@@ -194,6 +224,6 @@ motive:     i work for nobody. that's not sad. that's a choice.
 mystery:    got a wizard profile somewhere. maybe you'll find it.
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF41,100:000000&height=120&section=footer&animation=twinkling" />
+*◆ THE QUANTUM GAZETTE ◆ printed fresh every commit ◆*
 
 </div>
