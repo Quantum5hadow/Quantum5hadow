@@ -11,7 +11,12 @@
 
 [![Visits](https://komarev.com/ghpvc/?username=Quantum5hadow&style=for-the-badge&color=00FF41&labelColor=0d0d0d&label=VISITORS)](https://github.com/Quantum5hadow)
 [![GitHub followers](https://img.shields.io/github/followers/Quantum5hadow?style=for-the-badge&color=00FF41&labelColor=0d0d0d&logo=github)](https://github.com/Quantum5hadow?tab=followers)
-
+[![LeetCode](https://img.shields.io/badge/LeetCode-0d0d0d?style=for-the-badge&logo=leetcode&logoColor=00FF41)](https://leetcode.com/u/PixelPrince/)
+[![Reddit](https://img.shields.io/badge/Reddit-0d0d0d?style=for-the-badge&logo=reddit&logoColor=00FF41)](https://reddit.com/user/YOURUSERNAME)
+[![X](https://img.shields.io/badge/X-0d0d0d?style=for-the-badge&logo=x&logoColor=00FF41)](https://x.com/YOURUSERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d0d0d?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://linkedin.com/in/YOURUSERNAME)
+[![Instagram](https://img.shields.io/badge/Instagram-0d0d0d?style=for-the-badge&logo=instagram&logoColor=00FF41)](https://instagram.com/YOURUSERNAME)
+[![Gmail](https://img.shields.io/badge/Gmail-0d0d0d?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:sandeepteja.gst@gmail.com)
 </div>
 
 ---
