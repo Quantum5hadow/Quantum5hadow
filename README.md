@@ -13,7 +13,7 @@
 ---
 
 <!-- ABOUT -->
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=Quantum5hadow&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff&ring_color=00FF41" />
+<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=Quantum5hadow&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff" />
 
 ### `> whoami`
 
@@ -35,12 +35,12 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-<!-- WHAT I BUILD -->
+<!-- PROJECTS -->
 ### `> ls -la projects/`
 
 | project | what it actually does |
 |---|---|
-| 🕵️ **Social Engineering Detector** | NLP system that detects manipulation tactics in real time — urgency, fear, authority, scarcity. i know how attackers think. now building the defense. |
+| 🕵️ **Social Engineering Detector** | NLP system detecting manipulation tactics in real time — urgency, fear, authority, scarcity. i know how attackers think. now building the defense. |
 | 🖐️ **VR Hand Tracking** | virtual keyboard + HUD overlay using only a webcam. no headset. no hardware. OpenCV + MediaPipe + stubbornness. |
 | 🔐 **Web App Security Scanner** | automated SQLi + XSS vulnerability detection. built by someone who understands the attack, not just the tool. |
 | ☁️ **Encrypted Cloud Storage** | AES encryption + MFA + data loss prevention. because privacy is not optional. |
@@ -81,7 +81,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-<!-- STATS ROW -->
+<!-- GITHUB STATS -->
 ### `> stats --all`
 
 <div align="center">
@@ -104,36 +104,42 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-<!-- LEETCODE -->
-### `> leetcode --grind daily`
+<!-- LEETCODE DUAL -->
+### `> leetcode --both-accounts`
 
 <div align="center">
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/Quantum5hadow?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=8&width=600)
+<table>
+<tr>
+<td align="center" width="50%">
+
+**🆕 PixelPrince** *(active)*
+
+[![LeetCode](https://leetcard.jacoblin.cool/PixelPrince?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=8)](https://leetcode.com/u/PixelPrince/)
+
+</td>
+<td align="center" width="50%">
+
+**👾 Quantumshadow** *(legacy)*
+
+[![LeetCode](https://leetcard.jacoblin.cool/Quantumshadow?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=8)](https://leetcode.com/u/Quantumshadow/)
+
+</td>
+</tr>
+</table>
+
+> two accounts. one grind. `discipline > motivation.`
 
 </div>
 
-> `Discipline > Motivation.` motivation is a feeling. discipline is a system. i chose the system.
-
 ---
 
-<!-- 3D CONTRIBUTION -->
-### `> git log --graph --all`
+<!-- PACMAN EATING COMMITS -->
+### `> pacman --eat-my-commits`
 
 <div align="center">
 
-[![3D Contribution](https://raw.githubusercontent.com/Quantum5hadow/Quantum5hadow/main/profile-3d-contrib/profile-night-green.svg)](https://github.com/Quantum5hadow)
-
-</div>
-
----
-
-<!-- PACMAN / SNAKE -->
-### `> pacman --eat-commits`
-
-<div align="center">
-
-![Pacman eating contributions](https://github.com/Quantum5hadow/Quantum5hadow/blob/output/github-contribution-grid-snake-dark.svg)
+![Pacman](https://github.com/Quantum5hadow/Quantum5hadow/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -144,31 +150,18 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ```
 [✓] AWS Certified Solutions Architect Associate (SAA-C03)
-[✓] Advanced Google Analytics — Google Analytics Academy
-[✓] Cybersecurity Awareness Training — Amazon
+[✓] Advanced Google Analytics     — Google Analytics Academy
+[✓] Cybersecurity Awareness        — Amazon
 [✓] Fundamentals of Digital Marketing — Google
-[✓] Process Mining — AICTE EduSkills
+[✓] Process Mining                 — AICTE EduSkills
 ```
 
 ---
 
 <!-- QUOTE -->
-### `> fortune | cowsay`
-
 <div align="center">
 
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The+quieter+you+become%2C+the+more+you+are+able+to+hear.&author=Kali+Linux)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
-
----
-
-<!-- SPOTIFY -->
-### `> now playing`
-
-<div align="center">
-
-[![Spotify](https://novatorem-omega-eight.vercel.app/api/spotify)](https://open.spotify.com)
 
 </div>
 
