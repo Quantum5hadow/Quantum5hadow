@@ -34,17 +34,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-<!-- PROJECTS -->
-### `> ls -la projects/`
 
-| project | what it actually does |
-|---|---|
-| 🕵️ **Social Engineering Detector** | NLP system detecting manipulation tactics in real time — urgency, fear, authority, scarcity. i know how attackers think. now building the defense. |
-| 🖐️ **VR Hand Tracking** | virtual keyboard + HUD overlay using only a webcam. no headset. no hardware. OpenCV + MediaPipe + stubbornness. |
-| 🔐 **Web App Security Scanner** | automated SQLi + XSS vulnerability detection. built by someone who understands the attack, not just the tool. |
-| ☁️ **Encrypted Cloud Storage** | AES encryption + MFA + data loss prevention. because privacy is not optional. |
-
----
 
 <!-- TECH STACK -->
 ### `> cat arsenal.txt`
