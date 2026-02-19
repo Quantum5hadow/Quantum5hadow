@@ -17,7 +17,7 @@
 ---
 
 <!-- ABOUT -->
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=Quantum5hadow&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff&count_private=true&theme=dark" />
+<img align="right" width="380" src="https://github-stats-alpha.vercel.app/api?username=Quantum5hadow&cc=0d0d0d&tc=00FF41&ic=00FF41&bc=0d0d0d" />
 
 ### `> whoami`
 
