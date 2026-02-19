@@ -177,8 +177,6 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 </div>
 
----
-
 <!-- PACMAN EATING COMMITS -->
 ### `> pacman --eat-my-commits`
 
