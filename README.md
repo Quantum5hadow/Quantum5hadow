@@ -82,7 +82,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Quantum5hadow&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=00FF41&text_color=ffffff&langs_count=10" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Quantum5hadow&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=00FF41&text_color=aaaaa&langs_count=10" />
 <img height="180" src="https://streak-stats.demolab.com?user=Quantum5hadow&theme=terminal&hide_border=true&background=0d0d0d&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=cccccc" />
 
 </div>
@@ -114,13 +114,6 @@ called myself an ultra noob once. still do. keeps me hungry.
 </div>
 
 ---
-
-<!-- BOARD 4: TROPHIES -->
-### `> trophies --all`
-
-<div align="center">
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=Quantum5hadow&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -168,7 +161,6 @@ called myself an ultra noob once. still do. keeps me hungry.
 ---
 
 <!-- PACMAN EATING COMMITS -->
-### `> pacman --eat-my-commits`
 
 <div align="center">
 
