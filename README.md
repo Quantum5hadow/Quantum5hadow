@@ -1,253 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { background: #1a1a1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: 'Courier New', monospace; }
+<!-- HEADER -->
+<div align="center">
 
-  .terminal {
-    width: 900px;
-    background: #080808;
-    border-radius: 10px;
-    border: 1px solid rgba(0,255,65,0.3);
-    overflow: hidden;
-    box-shadow: 0 0 40px rgba(0,255,65,0.1);
-  }
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:080808,100:080808&height=20&section=header" />
 
-  .titlebar {
-    background: #111;
-    padding: 10px 16px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    border-bottom: 1px solid #1a1a1a;
-  }
-  .btn { width: 12px; height: 12px; border-radius: 50%; }
-  .red { background: #ff5f56; }
-  .yellow { background: #ffbd2e; }
-  .green { background: #27c93f; }
-  .title-text { color: #444; font-size: 12px; margin: 0 auto; }
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=13&pause=2000&color=555555&background=0d0d0d00&center=true&vCenter=true&width=700&height=28&lines=%E2%94%8C%E2%94%80%E2%94%80(root%F0%9F%A5%9Akali)-[~]%0A%E2%94%94%E2%94%80%24+cat+identity.txt" alt="prompt" />
 
-  .body { padding: 24px 28px 28px; min-height: 260px; }
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=52&pause=2000&color=00FF41&background=0d0d0d00&center=true&vCenter=true&width=800&height=80&lines=QUANTUM5HADOW" alt="name" />
 
-  .line { font-size: 13px; margin-bottom: 4px; min-height: 20px; overflow: hidden; white-space: nowrap; }
-  .prompt-green { color: #00FF41; }
-  .prompt-dim { color: #555; }
-  .white { color: #ccc; }
-  .dim { color: #555; }
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1000&color=00FF41&background=0d0d0d00&center=true&vCenter=true&width=700&height=120&lines=+role++++%3A+security+engineer+in+the+making...;+stack+++%3A+python+%7C+kotlin+%7C+opencv+%7C+kali;+mindset+%3A+attacker+brain.+developer+hands.;+status++%3A+focused.+quietly+dangerous." alt="Typing SVG" />
 
-  .name-line {
-    font-size: 64px;
-    font-weight: bold;
-    color: #00FF41;
-    letter-spacing: 4px;
-    margin: 12px 0;
-    text-shadow: 0 0 10px #00FF41, 0 0 20px #00FF41, 0 0 40px #00FF4155;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 0;
-  }
+[![Visits](https://komarev.com/ghpvc/?username=Quantum5hadow&style=for-the-badge&color=00FF41&labelColor=0d0d0d&label=VISITORS)](https://github.com/Quantum5hadow)
+[![GitHub followers](https://img.shields.io/github/followers/Quantum5hadow?style=for-the-badge&color=00FF41&labelColor=0d0d0d&logo=github)](https://github.com/Quantum5hadow?tab=followers)
 
-  .typed { overflow: hidden; white-space: nowrap; width: 0; }
-
-  .cursor {
-    display: inline-block;
-    width: 9px;
-    height: 15px;
-    background: #00FF41;
-    margin-left: 2px;
-    vertical-align: middle;
-    animation: blink 0.8s step-end infinite;
-  }
-
-  @keyframes blink {
-    0%, 49% { opacity: 1; }
-    50%, 100% { opacity: 0; }
-  }
-
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  @keyframes nameTyping {
-    from { width: 0; }
-    to { width: 860px; }
-  }
-</style>
-</head>
-<body>
-
-<div class="terminal">
-  <div class="titlebar">
-    <div class="btn red"></div>
-    <div class="btn yellow"></div>
-    <div class="btn green"></div>
-    <div class="title-text">quantum5hadow — bash — 120×40</div>
-  </div>
-  <div class="body">
-
-    <div class="line typed" id="l1">
-      <span class="prompt-dim">┌──(</span><span class="prompt-green">root</span><span class="prompt-dim">㉿kali)-[~]<br>└─</span><span class="prompt-green">$ </span><span class="white">cat identity.txt</span>
-    </div>
-
-    <div class="line typed" id="l2" style="color:#333">──────────────────────────────────────────────────────────</div>
-
-    <div class="line typed" id="l3">
-      <span class="dim">  role    : </span><span class="white">security engineer in the making</span>
-    </div>
-
-    <div class="line typed" id="l4">
-      <span class="dim">  stack   : </span><span class="white">python · kotlin · opencv · kali · docker</span>
-    </div>
-
-    <div class="name-line" id="lname">QUANTUM5HADOW</div>
-
-    <div class="line typed" id="l5">
-      <span class="dim">  mindset : </span><span class="white">attacker brain. developer hands. always building.</span>
-    </div>
-
-    <div class="line typed" id="l6">
-      <span class="dim">  status  : </span><span class="prompt-green">focused. quietly dangerous.</span>
-    </div>
-
-    <div class="line typed" id="l7">
-      <span class="prompt-dim">┌──(</span><span class="prompt-green">root</span><span class="prompt-dim">㉿kali)-[~]<br>└─</span><span class="prompt-green">$ </span><span class="cursor"></span>
-    </div>
-
-  </div>
 </div>
 
-<script>
-  function typeEl(el, duration, delay) {
-    return new Promise(resolve => {
-      setTimeout(() => {
-        el.style.transition = `width ${duration}ms steps(40)`;
-        el.style.width = '100%';
-        setTimeout(resolve, duration);
-      }, delay);
-    });
-  }
-
-  function typeName(el, duration, delay) {
-    return new Promise(resolve => {
-      setTimeout(() => {
-        el.style.transition = `width ${duration}ms steps(14)`;
-        el.style.width = '860px';
-        setTimeout(resolve, duration);
-      }, delay);
-    });
-  }
-
-  async function run() {
-    await typeEl(document.getElementById('l1'), 400, 300);
-    await typeEl(document.getElementById('l2'), 200, 100);
-    await typeEl(document.getElementById('l3'), 500, 100);
-    await typeEl(document.getElementById('l4'), 600, 100);
-    await typeName(document.getElementById('lname'), 800, 200);
-    await typeEl(document.getElementById('l5'), 500, 100);
-    await typeEl(document.getElementById('l6'), 400, 100);
-    await typeEl(document.getElementById('l7'), 300, 100);
-  }
-
-  run();
-</script>
-</body>
-</html>
-  
-  
-  <!-- BG -->
-  <rect width="900" height="320" fill="#080808" rx="10"/>
-  <rect x="1.5" y="1.5" width="897" height="317" fill="none" stroke="#00FF41" stroke-width="1" rx="9" opacity="0.3"/>
-
-  <!-- Title bar -->
-  <rect x="0" y="0" width="900" height="32" fill="#111111" rx="10"/>
-  <rect x="0" y="22" width="900" height="10" fill="#111111"/>
-  <circle cx="22" cy="16" r="5.5" fill="#ff5f56"/>
-  <circle cx="42" cy="16" r="5.5" fill="#ffbd2e"/>
-  <circle cx="62" cy="16" r="5.5" fill="#27c93f"/>
-  <text x="450" y="21" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#444">quantum5hadow — bash — 120×40</text>
-
-  <!-- LINE 1: prompt + command -->
-  <svg x="28" y="48" width="850" height="20" overflow="hidden">
-    <rect class="t1" height="20" fill="#080808"/>
-    <text y="15" font-family="'Courier New', monospace" font-size="13" fill="#00FF41">
-      <tspan fill="#555">┌──(</tspan><tspan fill="#00FF41">root</tspan><tspan fill="#555">㉿kali)-[~]</tspan>
-      <tspan fill="#555"> └─</tspan><tspan fill="#00FF41">$ </tspan>
-      <tspan fill="#ffffff">cat identity.txt</tspan>
-    </text>
-  </svg>
-
-  <!-- LINE 2 -->
-  <svg x="28" y="72" width="850" height="20" overflow="hidden">
-    <rect class="t2" height="20" fill="#080808"/>
-    <text y="15" font-family="'Courier New', monospace" font-size="13" fill="#555">
-      ──────────────────────────────────────────────────────
-    </text>
-  </svg>
-
-  <!-- LINE 3 -->
-  <svg x="28" y="94" width="850" height="20" overflow="hidden">
-    <rect class="t3" height="20" fill="#080808"/>
-    <text y="15" font-family="'Courier New', monospace" font-size="13">
-      <tspan fill="#555">  role   : </tspan>
-      <tspan fill="#cccccc">security engineer in the making</tspan>
-    </text>
-  </svg>
-
-  <!-- LINE 4 -->
-  <svg x="28" y="116" width="850" height="20" overflow="hidden">
-    <rect class="t4" height="20" fill="#080808"/>
-    <text y="15" font-family="'Courier New', monospace" font-size="13">
-      <tspan fill="#555">  stack  : </tspan>
-      <tspan fill="#cccccc">python · kotlin · opencv · kali · docker</tspan>
-    </text>
-  </svg>
-
-  <!-- BIG NAME -->
-  <g class="name-appear">
-    <svg x="28" y="142" width="844" height="80" overflow="hidden">
-      <rect class="tname" height="80" fill="#080808"/>
-      <text y="68" font-family="'Courier New', monospace" font-size="72" font-weight="bold"
-            fill="#00FF41" class="name-glow" letter-spacing="4">
-        QUANTUM5HADOW
-      </text>
-    </svg>
-  </g>
-
-  <!-- LINE 5 -->
-  <svg x="28" y="234" width="850" height="20" overflow="hidden">
-    <rect class="t5" height="20" fill="#080808"/>
-    <text y="15" font-family="'Courier New', monospace" font-size="13">
-      <tspan fill="#555">  mindset: </tspan>
-      <tspan fill="#cccccc">attacker brain. developer hands. always building.</tspan>
-    </text>
-  </svg>
-
-  <!-- LINE 6 -->
-  <svg x="28" y="256" width="850" height="20" overflow="hidden">
-    <rect class="t6" height="20" fill="#080808"/>
-    <text y="15" font-family="'Courier New', monospace" font-size="13">
-      <tspan fill="#555">  status : </tspan>
-      <tspan fill="#00FF41">focused. quietly dangerous.</tspan>
-    </text>
-  </svg>
-
-  <!-- FINAL PROMPT -->
-  <svg x="28" y="284" width="850" height="22" overflow="hidden">
-    <rect class="tprompt" height="22" fill="#080808"/>
-    <text y="16" font-family="'Courier New', monospace" font-size="13" fill="#00FF41">
-      <tspan fill="#555">┌──(</tspan><tspan fill="#00FF41">root</tspan><tspan fill="#555">㉿kali)-[~]</tspan>
-      <tspan fill="#555"> └─</tspan><tspan fill="#00FF41">$ </tspan>
-      <tspan class="cursor" fill="#00FF41">█</tspan>
-    </text>
-  </svg>
-
-</svg>
+---
 
 <!-- ABOUT -->
+<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=Quantum5hadow&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff&count_private=true&theme=dark" />
 
+### `> whoami`
 
 ```bash
 Alias    : Quantum5hadow
@@ -309,7 +81,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-<!-- BOARD 1: STATS + STREAK SIDE BY SIDE -->
+<!-- BOARD 1: STATS + STREAK -->
 ### `> stats --github`
 
 <div align="center">
@@ -332,7 +104,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-<!-- BOARD 3: PROFILE SUMMARY CARDS -->
+<!-- BOARD 3: PROFILE SUMMARY -->
 ### `> stats --summary`
 
 <div align="center">
@@ -346,6 +118,13 @@ called myself an ultra noob once. still do. keeps me hungry.
 </div>
 
 ---
+
+<!-- BOARD 4: TROPHIES -->
+### `> trophies --all`
+
+<div align="center">
+
+[![Trophy](https://github-profile-trophy.vercel.app/?username=Quantum5hadow&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -392,7 +171,8 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-
+<!-- SNAKE -->
+### `> pacman --eat-my-commits`
 
 <div align="center">
 
@@ -406,7 +186,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-
+<!-- QUOTE -->
 <div align="center">
 
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The+quieter+you+become%2C+the+more+you+are+able+to+hear.&author=Kali+Linux)](https://github.com/piyushsuthar/github-readme-quotes)
@@ -415,7 +195,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-
+<!-- FOOTER -->
 <div align="center">
 
 ```
