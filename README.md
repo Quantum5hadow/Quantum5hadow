@@ -13,7 +13,6 @@
 ---
 
 <!-- ABOUT -->
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=Quantum5hadow&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff&count_private=true" />
 
 
 ```bash
