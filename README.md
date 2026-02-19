@@ -13,7 +13,7 @@
 ---
 
 <!-- ABOUT -->
-<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=Quantum5hadow&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff" />
+<img align="right" width="380" src="https://github-readme-stats.vercel.app/api?username=Quantum5hadow&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff&count_private=true" />
 
 ### `> whoami`
 
@@ -28,13 +28,11 @@ i don't chase trends. i pick something that confuses me and stay with it until i
 
 called myself an ultra noob once. still do. keeps me hungry.
 
-`Teck` is my weapon. `Discipline` is my armor.
+`Tech` is my weapon. `Discipline` is my armor.
 
 <br clear="right"/>
 
 ---
-
-
 
 <!-- TECH STACK -->
 ### `> cat arsenal.txt`
@@ -79,13 +77,13 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-<!-- BOARD 1: GITHUB STATS + STREAK -->
+<!-- BOARD 1: STATS + STREAK SIDE BY SIDE -->
 ### `> stats --github`
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Quantum5hadow&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=00FF41&text_color=cccccc&langs_count=10" />
-<img width="79%" src="https://streak-stats.demolab.com?user=Quantum5hadow&theme=terminal&hide_border=true&background=0d0d0d&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=888888" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Quantum5hadow&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=00FF41&text_color=ffffff&langs_count=10" />
+<img height="180" src="https://streak-stats.demolab.com?user=Quantum5hadow&theme=terminal&hide_border=true&background=0d0d0d&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=cccccc" />
 
 </div>
 
@@ -96,13 +94,13 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Quantum5hadow&&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff&area=true&hide_border=true&area_color=00FF4120)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Quantum5hadow&bg_color=0d0d0d&color=00FF41&line=00FF41&point=ffffff&area=true&hide_border=true&area_color=00FF4130)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
 
-<!-- BOARD 3: PROFILE SUMMARY -->
+<!-- BOARD 3: PROFILE SUMMARY CARDS -->
 ### `> stats --summary`
 
 <div align="center">
@@ -122,7 +120,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 <div align="center">
 
-[![Trophy](https://github-profile-trophy.vercel.app/?username=Quantum5hadow&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophy](https://github-profile-trophy.vercel.app/?username=Quantum5hadow&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -133,7 +131,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 <div align="center">
 
-[![Jokes Card](https://readme-jokes.vercel.app/api?theme=dark&bgColor=0d0d0d&borderColor=00FF41&qColor=00FF41&aColor=ffffff&textColor=ffffff)](https://github.com/ABSphreak/readme-jokes)
+[![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%230d0d0d&borderColor=%2300FF41&qColor=%2300FF41&aColor=%23ffffff&textColor=%23ffffff&codeColor=%2300FF41)](https://github.com/ABSphreak/readme-jokes)
 
 </div>
 
@@ -144,7 +142,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 <div align="center">
 
-<table>
+<table border="0">
 <tr>
 <td align="center" width="50%">
 
@@ -167,6 +165,8 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 </div>
 
+---
+
 <!-- PACMAN EATING COMMITS -->
 ### `> pacman --eat-my-commits`
 
@@ -177,6 +177,8 @@ called myself an ultra noob once. still do. keeps me hungry.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Quantum5hadow/Quantum5hadow/output/github-contribution-grid-snake.svg" />
   <img alt="pacman eating commits" src="https://raw.githubusercontent.com/Quantum5hadow/Quantum5hadow/output/github-contribution-grid-snake-dark.svg" />
 </picture>
+
+> ⚠️ if this is broken: go to **Actions tab** → run **Generate Snake Animation** manually once → done forever
 
 </div>
 
@@ -203,8 +205,3 @@ mystery:    got a wizard profile somewhere. maybe you'll find it.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF41,100:000000&height=120&section=footer&animation=twinkling" />
 
 </div>
-
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
