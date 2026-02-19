@@ -1,85 +1,162 @@
-<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      @keyframes cursor-blink {
-        0%, 49% { opacity: 1; }
-        50%, 100% { opacity: 0; }
-      }
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #1a1a1a; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: 'Courier New', monospace; }
 
-      /* typing masks - each line types left to right */
-      @keyframes type-line1 {
-        0%   { width: 0; }
-        8%   { width: 100%; }
-        100% { width: 100%; }
-      }
-      @keyframes type-line2 {
-        0%, 10%  { width: 0; }
-        20%      { width: 100%; }
-        100%     { width: 100%; }
-      }
-      @keyframes type-line3 {
-        0%, 22%  { width: 0; }
-        32%      { width: 100%; }
-        100%     { width: 100%; }
-      }
-      @keyframes type-line4 {
-        0%, 34%  { width: 0; }
-        44%      { width: 100%; }
-        100%     { width: 100%; }
-      }
-      @keyframes type-name {
-        0%, 46%  { width: 0; }
-        72%      { width: 100%; }
-        100%     { width: 100%; }
-      }
-      @keyframes type-line5 {
-        0%, 74%  { width: 0; }
-        82%      { width: 100%; }
-        100%     { width: 100%; }
-      }
-      @keyframes type-line6 {
-        0%, 84%  { width: 0; }
-        92%      { width: 100%; }
-        100%     { width: 100%; }
-      }
-      @keyframes type-prompt {
-        0%, 93%  { width: 0; }
-        100%     { width: 60%; }
-      }
+  .terminal {
+    width: 900px;
+    background: #080808;
+    border-radius: 10px;
+    border: 1px solid rgba(0,255,65,0.3);
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0,255,65,0.1);
+  }
 
-      @keyframes appear {
-        0%, 46% { opacity: 0; }
-        47%     { opacity: 1; }
-        100%    { opacity: 1; }
-      }
+  .titlebar {
+    background: #111;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #1a1a1a;
+  }
+  .btn { width: 12px; height: 12px; border-radius: 50%; }
+  .red { background: #ff5f56; }
+  .yellow { background: #ffbd2e; }
+  .green { background: #27c93f; }
+  .title-text { color: #444; font-size: 12px; margin: 0 auto; }
 
-      @keyframes glow-pulse {
-        0%, 100% { filter: drop-shadow(0 0 6px #00FF41) drop-shadow(0 0 12px #00FF41); }
-        50%      { filter: drop-shadow(0 0 14px #00FF41) drop-shadow(0 0 28px #00FF41); }
-      }
+  .body { padding: 24px 28px 28px; min-height: 260px; }
 
-      .mono { font-family: 'Courier New', Courier, monospace; }
+  .line { font-size: 13px; margin-bottom: 4px; min-height: 20px; overflow: hidden; white-space: nowrap; }
+  .prompt-green { color: #00FF41; }
+  .prompt-dim { color: #555; }
+  .white { color: #ccc; }
+  .dim { color: #555; }
 
-      .clip-wrap {
-        overflow: hidden;
-        display: inline-block;
-      }
+  .name-line {
+    font-size: 64px;
+    font-weight: bold;
+    color: #00FF41;
+    letter-spacing: 4px;
+    margin: 12px 0;
+    text-shadow: 0 0 10px #00FF41, 0 0 20px #00FF41, 0 0 40px #00FF4155;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+  }
 
-      .t1 { animation: type-line1 12s steps(40) infinite; overflow: hidden; white-space: nowrap; }
-      .t2 { animation: type-line2 12s steps(40) infinite; overflow: hidden; white-space: nowrap; }
-      .t3 { animation: type-line3 12s steps(40) infinite; overflow: hidden; white-space: nowrap; }
-      .t4 { animation: type-line4 12s steps(40) infinite; overflow: hidden; white-space: nowrap; }
-      .tname { animation: type-name 12s steps(14) infinite; overflow: hidden; white-space: nowrap; }
-      .t5 { animation: type-line5 12s steps(40) infinite; overflow: hidden; white-space: nowrap; }
-      .t6 { animation: type-line6 12s steps(40) infinite; overflow: hidden; white-space: nowrap; }
-      .tprompt { animation: type-prompt 12s steps(20) infinite; overflow: hidden; white-space: nowrap; }
+  .typed { overflow: hidden; white-space: nowrap; width: 0; }
 
-      .name-glow { animation: glow-pulse 2s ease-in-out infinite; }
-      .cursor { animation: cursor-blink 0.8s step-end infinite; }
-      .name-appear { animation: appear 12s infinite; }
-    </style>
-  </defs>
+  .cursor {
+    display: inline-block;
+    width: 9px;
+    height: 15px;
+    background: #00FF41;
+    margin-left: 2px;
+    vertical-align: middle;
+    animation: blink 0.8s step-end infinite;
+  }
 
+  @keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes nameTyping {
+    from { width: 0; }
+    to { width: 860px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="terminal">
+  <div class="titlebar">
+    <div class="btn red"></div>
+    <div class="btn yellow"></div>
+    <div class="btn green"></div>
+    <div class="title-text">quantum5hadow — bash — 120×40</div>
+  </div>
+  <div class="body">
+
+    <div class="line typed" id="l1">
+      <span class="prompt-dim">┌──(</span><span class="prompt-green">root</span><span class="prompt-dim">㉿kali)-[~]<br>└─</span><span class="prompt-green">$ </span><span class="white">cat identity.txt</span>
+    </div>
+
+    <div class="line typed" id="l2" style="color:#333">──────────────────────────────────────────────────────────</div>
+
+    <div class="line typed" id="l3">
+      <span class="dim">  role    : </span><span class="white">security engineer in the making</span>
+    </div>
+
+    <div class="line typed" id="l4">
+      <span class="dim">  stack   : </span><span class="white">python · kotlin · opencv · kali · docker</span>
+    </div>
+
+    <div class="name-line" id="lname">QUANTUM5HADOW</div>
+
+    <div class="line typed" id="l5">
+      <span class="dim">  mindset : </span><span class="white">attacker brain. developer hands. always building.</span>
+    </div>
+
+    <div class="line typed" id="l6">
+      <span class="dim">  status  : </span><span class="prompt-green">focused. quietly dangerous.</span>
+    </div>
+
+    <div class="line typed" id="l7">
+      <span class="prompt-dim">┌──(</span><span class="prompt-green">root</span><span class="prompt-dim">㉿kali)-[~]<br>└─</span><span class="prompt-green">$ </span><span class="cursor"></span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  function typeEl(el, duration, delay) {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        el.style.transition = `width ${duration}ms steps(40)`;
+        el.style.width = '100%';
+        setTimeout(resolve, duration);
+      }, delay);
+    });
+  }
+
+  function typeName(el, duration, delay) {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        el.style.transition = `width ${duration}ms steps(14)`;
+        el.style.width = '860px';
+        setTimeout(resolve, duration);
+      }, delay);
+    });
+  }
+
+  async function run() {
+    await typeEl(document.getElementById('l1'), 400, 300);
+    await typeEl(document.getElementById('l2'), 200, 100);
+    await typeEl(document.getElementById('l3'), 500, 100);
+    await typeEl(document.getElementById('l4'), 600, 100);
+    await typeName(document.getElementById('lname'), 800, 200);
+    await typeEl(document.getElementById('l5'), 500, 100);
+    await typeEl(document.getElementById('l6'), 400, 100);
+    await typeEl(document.getElementById('l7'), 300, 100);
+  }
+
+  run();
+</script>
+</body>
+</html>
+  
+  
   <!-- BG -->
   <rect width="900" height="320" fill="#080808" rx="10"/>
   <rect x="1.5" y="1.5" width="897" height="317" fill="none" stroke="#00FF41" stroke-width="1" rx="9" opacity="0.3"/>
