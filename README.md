@@ -96,7 +96,7 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Quantum5hadow&bg_color=0d0d0d&color=00FF41&line=00FF41&point=ffffff&area=true&hide_border=true&area_color=00FF4120)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Quantum5hadow&&bg_color=0d0d0d&title_color=00FF41&icon_color=00FF41&text_color=ffffff&area=true&hide_border=true&area_color=00FF4120)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
