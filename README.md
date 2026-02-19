@@ -18,7 +18,6 @@
 ### `> whoami`
 
 ```bash
-Name     : G. Sandeep Teja
 Alias    : Quantum5hadow
 Role     : CS undergrad → Security + AI builder
 Mindset  : attacker brain, developer hands
@@ -29,7 +28,7 @@ i don't chase trends. i pick something that confuses me and stay with it until i
 
 called myself an ultra noob once. still do. keeps me hungry.
 
-`python` is my weapon. `discipline` is my armor.
+`Teck` is my weapon. `Discipline` is my armor.
 
 <br clear="right"/>
 
@@ -217,34 +216,6 @@ mystery:    got a wizard profile somewhere. maybe you'll find it.
 
 </div>
 
-
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: Generate Snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
           target_branch: output
           build_dir: dist
         env:
