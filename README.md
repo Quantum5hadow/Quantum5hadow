@@ -119,25 +119,6 @@ called myself an ultra noob once. still do. keeps me hungry.
 
 ---
 
-<!-- BOARD 3: PROFILE SUMMARY -->
-### `> stats --summary`
-
-<div align="center">
-
-[![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Quantum5hadow&theme=github_dark)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Quantum5hadow&theme=github_dark" />
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Quantum5hadow&theme=github_dark" />
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Quantum5hadow&theme=github_dark&utcOffset=5.5" />
-
-</div>
-
----
-
-
-</div>
-
----
 
 <!-- BOARD 5: DEV JOKE -->
 ### `> sudo apt install humor`
